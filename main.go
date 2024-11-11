@@ -73,7 +73,7 @@ func extractResources(indexPath, objectsDir, outputDir string) error {
 
 func main() {
 	if len(os.Args) < 4 {
-		fmt.Println("Usage: go run main.go <index.json path> <objects dir> <output dir>")
+		fmt.Println("Usage: mineextract <index.json path> <objects dir> <output dir>")
 		return
 	}
 
